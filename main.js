@@ -96,7 +96,7 @@ var options = {
                 "speed": 3
             },
             "repulse": {
-                "distance": 215.78421578421577,
+                "distance": 140.78421578421577,
                 "duration": 0.4
             },
             "push": {

@@ -624,7 +624,8 @@ cf:before,
   overflow: hidden;
   text-align: center;
   position: relative;
-  box-shadow:  5px 10px #bdbdbd;
+  box-shadow: 0 10px 6px -6px #777;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
 }
 
 
