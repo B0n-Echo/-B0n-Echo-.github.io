@@ -5,7 +5,7 @@ body {
   font-family: "Jost", sans-serif;
   /* background-image: url(https://data.whicdn.com/images/153128943/original.gif); */
   /* background-image: url(https://i.imgur.com/moFQgOd.gif); */
-  background-image: url(https://w.wallhaven.cc/full/96/wallhaven-961rmx.jpg);
+  background-image: url("./assets/backgrndImage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -89,129 +89,6 @@ background: #FFFFFF;
 .profile-card header h1 {
   color: #FF5722;
 }
-
-/*
-.profile-card header a {
-  display: inline-block;
-  text-align: center;
-  position: relative;
-  margin: 25px 30px;
-}
-.profile-card header a:after {
-position: absolute;
-  content: "";
-bottom: 3px;
-right: 3px;
-width: 20px;
-height: 20px;
-  border: 4px solid #FFFFFF;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  background: -webkit-linear-gradient(top, #2196F3 0%, #2196F3 50%, #FFC107 50%, #FFC107 100%);
-  background: linear-gradient(#2196F3 0%, #2196F3 50%, #FFC107 50%, #FFC107 100%);
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-  -webkit-animation: scaleIn 0.3s 3.5s ease forwards;
-  animation: scaleIn 0.3s 3.5s ease forwards;
-}
-.profile-card header a > img {
-  width: 120px;
-  max-width: 100%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-transition: -webkit-box-shadow 0.3s ease;
-  transition: box-shadow 0.3s ease;
-  -webkit-box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.06);
-}
-.profile-card header a:hover > img {
-  -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
-} */
-/* .profile-card .profile-bio {
-  width: 175px;        
-  height: 180px;
-  display: inline-block;
-  float: right;
-  padding: 50px 20px 30px 20px;
-background: #FFFFFF;
-  color: #333333;
-  margin-top: 50px;
-  text-align: center;
-  opacity: 0;
-  -webkit-animation: moveIn 1s 3.1s ease forwards;
-  animation: moveIn 1s 3.1s ease forwards;
-} */
-/* .profile-social-links {
-  width: 218px;        
-  display: inline-block;
-  float: right;
-  margin: 0px;
-  padding: 15px 20px;
-background: #FFFFFF;
-  margin-top: 50px;
-  text-align: center;
-  opacity: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-animation: moveIn 1s 3.1s ease forwards;
-  animation: moveIn 1s 3.1s ease forwards;
-}
-.profile-social-links li {
-  list-style: none;
-  margin: -5px 0px 0px 0px;
-  padding: 0px;
-  float: left;
-  width: 33.3%;
-  text-align: center;
-}
-.profile-social-links li a {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  padding: 6px;
-  position: relative;
-  overflow: hidden!important;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-.profile-social-links li a img {
-  position: relative;
-  z-index: 1;
-}
-.profile-social-links li a:before {
-  display: block;
-  content: "";
-  background: rgba(0, 0, 0, 0.3);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 36px;
-  height: 36px;
-  opacity: 1;
-  -webkit-transition: transform 0.4s ease, opacity 1s ease-out;
-  transition: transform 0.4s ease, opacity 1s ease-out;
-  -webkit-transform: scale3d(0, 0, 1);
-  transform: scale3d(0, 0, 1);
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-.profile-social-links li a:hover:before {
-  -webkit-animation: ripple 1s ease forwards;
-  animation: ripple 1s ease forwards;
-}
-.profile-social-links li a img,
-.profile-social-links li a svg {
-  width: 24px;
-} */
-
-/* .profile-card[data-state="#about"] .card-main {
-
-
-
-} */
 
 .profile-card[data-state="#about"] .card-main {
 
