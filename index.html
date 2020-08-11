@@ -1,208 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="styles.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
-    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" href="styles.css">
+    <title>Profile-Card</title>
+  </head>
+  <body>
+    <aside class="profile-card" data-state="#about">
 
-    <title>Portfolio</title>
+        <header>
+          <div class="card-header">
+            <div
+              class="card-cover"
+              style="
+                background-image: url('https://i.pinimg.com/originals/b2/40/e2/b240e28c456d8f70726ca0079dc4b0f8.gif');
+              "
+            ></div>
 
-</head>
+            <img
+              class="card-avatar"
+              src="https://i.ibb.co/Bj72cPW/myAvatar.png"
+              alt="avatar"
+            />
 
-<body>
-    <header>
-        <div class="header">
-            <div>
-                <a class="logo" href="#">Nikhilesh Pandey</a>
+            <h1 class="card-fullname">Nikhilesh Pandey</h1>
 
-                <div class="navbar">
-                    <nav>
-                        <ul>
-                            <!--Main nav to navigate to different parts of the page-->
-                            <li><a id="home-link" href="#">Home</a></li>
-                            <li><a id="about-link" href="#about">About</a></li>
-                            <li><a id="services-link" href="#professional-experience">Experience</a></li>
-                            <li><a id="portfolio-link" href="#projects">Projects</a></li>
-                            <li><a id="client-link" href="#client">Clients</a></li>
-                            <li><a id="contact-link" href="#contact">Contact ME</a></li>
-                        </ul>
-                    </nav>
-                </div>
+            <h2 class="card-jobtitle">Web Developer | Tech Blogger</h2>
+          </div>
+          <!-- here’s the avatar -->
+          <!-- <a href="http://victory-design.ru/">
+            <img src="http://victory-design.ru/sandbox/codepen/profile_card/avatar.svg" />
+        </a> -->
+
+          <!-- the username -->
+          <!-- <h1>David Jones</h1> -->
+
+          <!-- and role or location -->
+          <!-- <h2>Web Developer</h2> -->
+        </header>
+
+        <!-- bit of a bio; who are you? -->
+        <!-- <div class="profile-bio">
+          <p>
+            Even when everything is perfect, you can always make it better.
+            Break barriers in your head, create something crazy and don't forget
+            Code is Poetry...
+          </p>
+        </div> -->
+
+        <div class="card-main">
+      
+          <div class="card-section is-active" id="about">
+      
+            <div class="card-content">
+      
+              <div class="card-subtitle">ABOUT</div>
+      
+              <p class="card-desc">
+                  <b>
+                    Man technologist | Experienced senior/lead Developer 
+                  </b> 
+                  <br>
+                Strong focus on quality code and robust system architecture. 
+                Primarily works with web technologies and has 3+ years of professional experience in Full Stack Development.
+              </p>
+              
             </div>
-        </div>
-    </header>
-
-    <section id="home">
-        <div id="particle">
-            <div id="overlay">
-                <div class="home-content">
-                    <div class="img">
-                        <img src="images\manPower.jpg"
-                            alt="Profile-Photo" title="Click this Image">
-                    </div>
-
-                    <h1>Hi! I'm Nikhilesh</h1>
-                    <h2>Full-Stack Web Developer</h2>
-                    <h2 class="small"> Angular | Node | c#</h2>
-                </div>
+            
+            <div class="skills code">
+              <h3>Skills</h3>
+              <ul>
+                <li>JavaScript</li>
+                <li>Angular</li>
+                <li>Node Js</li>
+                <li >ExpressJs </li>
+                <li >MongoDB </li>
+                <li>CSS 3</li>
+                <li>Scss</li>
+                <li >API </li>
+                <li>GitHub</li>
+              </ul>
             </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="my-intro">
-            <h2>Hi, I'm <span class="accent-text">Nikhilesh</span></h2>
-
-            <p>I am a Full-Stack Web Developer with knowledge in different front-end and back-end languages, 
-                responsive frameworks, database and best coding practices. </p>
-                <br>
-                <p  class="show-experience">
-                   <b>
-                        My Experience: 
-                   </b> 
-                   <i id="experience"></i> 
-                <br>
-                   <p class="tool-tip">(this data is auto generated by script)</p>
-                </p>
-                <br>
-                <br>
-                <p>
-                    I have been Working on creating Efficient Industry Oriented Angular Web Applications for Fortune 500 Companies.
-                </p>
-                <br>
-                <p>
-                    My objective is to be an expert level Full stack web developer and to contribute to the technology industry, 
-                    perfecting my craft by learning from more seasoned developers at the same time remaining humble 
-                    and continuously making strides to learn all that I can about development.
-                </p>
-
-            <ul class="about-social">
-                    <li><a href="https://www.facebook.com/nikhil.pandey.379" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/nikhilp379" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/nikhilesh-h-pandey/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/B0n-Echo" target="_blank"><i class="fa fa-github"></i></a></li>
-                </ul>
-
-        </div>
-
-        <div class="featured">
-            <div class="skills-tab">
-                <h2>Skills</h2>
-
-                <div class="wrap">
-                    <div class="progress-radial progress-80">
-                        <div class="overlay">80%</div>
-                        <label class="skill">Javascript</label>
-                    </div>
-
-                    <div class="progress-radial progress-70">
-                        <div class="overlay">70%</div>
-                        <label class="skill">Angular</label>
-                    </div>
-
-                    <div class="progress-radial progress-75">
-                        <div class="overlay">75%</div>
-                        <label class="skill">Css/Scss</label>
-                    </div>
-
-                    <div class="progress-radial progress-40">
-                        <div class="overlay">40%</div>
-                        <label class="skill">Node-Js</label>
-                    </div>
-
+          </div>
+      
+          <div class="card-section" id="experience">
+      
+            <div class="card-content">
+      
+              <div class="card-subtitle">WORK EXPERIENCE</div>
+      
+              <div class="card-timeline">
+      
+                <div class="card-item" data-year="2017">
+      
+                  <div class="card-item-title">Full Stack Developer at <span>RareCrew</span></div>
+      
+                  <div class="card-item-desc">Disrupt stumptown retro everyday carry unicorn.</div>
+      
                 </div>
-
-                <div class="wrap">
-                    <div class="progress-radial progress-80">
-                        <div class="overlay">80%</div>
-                        <label class="skill">SQL Server</label>
-                    </div>
-
-                    <div class="progress-radial progress-90">
-                        <div class="overlay">90%</div>
-                        <label class="skill">GitHub</label>
-                    </div>
-
-                    <div class="progress-radial progress-60">
-                        <div class="overlay">60%</div>
-                        <label class="skill">C#</label>
-                    </div>
-
-                    <div class="progress-radial progress-55">
-                        <div class="overlay">55%</div>
-                        <label class="skill">ASP.NET MVC</label>
-                    </div>
-
+      
+                <div class="card-item" data-year="2018">
+      
+                  <div class="card-item-title">Remote Developer at <span>PurpleRain</span></div>
+      
+                  <div class="card-item-desc">Developed new conversion funnels and disrupt.</div>
+      
                 </div>
+      
+                <div class="card-item" data-year="2019">
+      
+                  <div class="card-item-title">MEAN Stack  Developer at <span>Lattitude Fintech</span></div>
+      
+                  <div class="card-item-desc">Onboarding illustrations for App.</div>
+      
+                </div>
+      
+                <div class="card-item" data-year="2020">
+      
+                  <div class="card-item-title">Sr. Associate Developer at <span>Infosys</span></div>
+      
+                  <div class="card-item-desc">Responsible for the encomposing brand expreience.</div>
+      
+                </div>
+      
+              </div>
+      
             </div>
-
-            <div class="education">
-                    <h2>Education</h2>
-            <h4>D.A.V. Public School, Mumbai</h4>
-            <p>High School</p>
-
-            <h4>International Institute of Information Technology, Pune</h4>
-            <p>Bachelor of Engineering</p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="professional-experience">
-        <div class="experience-header">
-            <h3>My Professional Experience</h3>
-        </div>
-        <div class="grid">
-            <div class="row cf">
-                <div class="slide-up four col">
-                    <div class="box">
-                        <div class="f1"></div>
-                        <div class="original">
-                            <h1>Hover!</h1>
-                            <p>Fixea 360</p>
-                        </div>
-                        <div class="overlay">
-                            <p class="used-skills">
-                            </br>
-                            PHP<br/>
-                            RND Machine learning algorithm.<br/>
-                            Wordpress<br/>
-                            selenium<br/>
-                            Aptana Studio IDE<br/>
-                            Javascript<br/>
-                            </p>
-                        </div>
-                    </div>
+      
+          </div>
+      
+          <div class="card-section" id="contact">
+      
+            <div class="card-content">
+      
+              <div class="card-subtitle">CONTACT</div>
+      
+              <div class="card-contact-wrapper">
+      
+                <div class="card-contact">
+      
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+      
+                    <circle cx="12" cy="10" r="3" /></svg>
+      
+                 Pune  |  India
                 </div>
-                <div class="slide-down-delay four col">
-                    <div class="box">
-                        <div class="r1"></div>
-                        <div class="original">
-                            <h1>Hover!</h1>
-                            <p>Rapidd Technologies</p>
-                        </div>
-                        <div class="overlay">
-                                <p class="used-skills">
-                                        Javascript<br/>
-                                        TypeScript<br/>
-                                        Angular 4/5/6<br/>
-                                        C#<br/>
-                                        Dot. Net<br/>
-                                        Scss<br/>
-                                        SQL Server<br/>
-                                </p>
-                        </div>
-                    </div>
+      
+                <div class="card-contact">
+      
+                  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" /></svg>
+                    (+62) 8569478xxxx
+                  </div>
+      
+                <div class="card-contact">
+      
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+      
+                    <path d="M22 6l-10 7L2 6" /></svg>
+      
+                   nikhileshhpandey@gmail.com
+      
                 </div>
-            </div>
-        </div>
-    </section>
+                
+                <div class="card-contact">
+      
+                  <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"/></svg>
+      
+                  <a href=https://medium.com/@nikhilesh.pandey>Tech Blogs</a>
+      
+                </div>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+                <div class="card-social">
+      
+                  <a href="https://www.facebook.com/nikhil.pandey.379" target="_blank"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          
+                      <path d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z" /></svg></a>
+          
+                  <a href="https://twitter.com/nikhilp379" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          
+                      <path d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z" /></svg></a>
+          
+                  <a href="https://github.com/B0n-Echo" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+          
+                  <a href="https://www.linkedin.com/in/nikhilesh-h-pandey/" target="_blank"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          
+                      <path d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 002.882 0z" /></svg></a>
+          
+                </div>
+      
+                <button class="contact-me" href="https://www.linkedin.com/in/nikhilesh-h-pandey/">Lets Connect</button>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+      
+          <div class="card-buttons">
+      
+            <button data-section="#about" class="is-active">ABOUT</button>
+      
+            <button data-section="#experience">EXPERIENCE</button>
+      
+            <button data-section="#contact">CONTACT</button>
+      
+          </div>
+      
+        </div>
+    </aside>
+    <!-- that’s all folks! -->
+
     <script src="main.js"></script>
-</body>
+  </body>
+</html>

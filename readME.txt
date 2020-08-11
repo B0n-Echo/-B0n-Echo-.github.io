@@ -1,8 +1,0 @@
-img : https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-224215.jpg
-
-https://codepen.io/B0n-Echo/pen/RexYQo?editors=1010
-
-https://codepen.io/alexander-holman/pen/rebroK?editors=0110
-
-font awesome Icons:
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
