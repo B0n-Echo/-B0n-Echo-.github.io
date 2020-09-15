@@ -14,7 +14,7 @@
     <img alt="Profile Card GIF" src="./assets/ProfileCard.gif" />
 </p>
 
-### 🏠 [Homepage](https://github.com/B0n-Echo)
+### 🏠 [Homepage](http://b0n-echo.github.io/)
 
 ## Author
 
