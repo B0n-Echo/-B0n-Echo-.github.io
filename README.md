@@ -11,7 +11,7 @@
 ## GIF view
 
 <p>
-    <img alt="Profile Card GIF" src="https://img.shields.io/twitter/follow/hnikhilp379.svg?style=social" />
+    <img alt="Profile Card GIF" src="./assets/ProfileCard.gif" />
 </p>
 
 ### 🏠 [Homepage](https://github.com/B0n-Echo)
@@ -20,8 +20,8 @@
 
 👤 **Nikhilesh Pandey**
 
-* Twitter: [@hnikhilp379](https://twitter.com/nikhilp379)
-* Github: [@h0n-Echo](https://github.com/b0n-Echo)
+* Twitter: [@nikhilp379](https://twitter.com/nikhilp379)
+* Github: [@b0n-Echo](https://github.com/b0n-Echo)
 * LinkedIn: [@nikhilesh-h-pandey](https://linkedin.com/in/nikhilesh-h-pandey)
 
 ## Show your support
